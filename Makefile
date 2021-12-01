@@ -1,12 +1,8 @@
-##
-# Makefile for development environments
-##
-
 latest: Dockerfile
-	@docker build -t activatedgeek/rabbitmqadmin:devel .
+	@docker build -t leoh0/rabbitmqadmin .
 
 run:
 	@docker run --rm \
 		--name test-rabbitmqadmin \
-		activatedgeek/rabbitmqadmin:devel \
+		leoh0/rabbitmqadmin \
 		--version

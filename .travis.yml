@@ -4,7 +4,7 @@ services:
   - docker
 
 env:
-  - DOCKER_REPO_SLUG=activatedgeek/rabbitmqadmin
+  - DOCKER_REPO_SLUG=leoh0/rabbitmqadmin
 
 script:
   # build latest image always
